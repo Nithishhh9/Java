@@ -46,6 +46,11 @@ public class bleak{
             System.out.println("Yes");
         else
             System.out.println("No");
+        if (isBleak(5))
+            System.out.println("Yes");
+        else
+            System.out.println("No");
+        
  
     }
 }

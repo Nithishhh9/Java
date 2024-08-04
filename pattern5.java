@@ -2,22 +2,20 @@ package Java;
 
 import java.util.Scanner;
 
-public class pattern3 {
+public class pattern5 {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter number :");
         int n=sc.nextInt();
-        for(int i=0;i<n;i++){
-            for(int j=0;j<n-i-1;j++){
-                System.out.print(" ");
-            }
-            for(int j=0;j<2*i+1;j++){
+        for(int i=0;i<2*n-1;i++){
+            int start=i;
+            if(i>n) start=2*n-i-1;
+            for(int j=0;j<start;j++){
                 System.out.print("*");
             }
-            for(int j=0;j<n-i-1;j++){
-                System.out.print(" ");
-            } 
             System.out.println();
         }
+    
     }
+    
 }

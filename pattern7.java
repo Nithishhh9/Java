@@ -21,6 +21,7 @@ public class pattern7 {
             }
             System.out.println();
             space=space-2;
+            
         }
     }
 }

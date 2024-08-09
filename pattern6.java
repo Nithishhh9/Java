@@ -9,7 +9,7 @@ public class pattern6 {
         int n=sc.nextInt();
         for(int i=0;i<n;i++){
             int start=0;
-            if(i%2==0) start=1;
+            if(i%2 ==0) start=1;
             for(int j=0;j<=i;j++){
                 System.out.print(start+" ");
                 start=1-start;

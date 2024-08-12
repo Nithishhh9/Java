@@ -1,10 +1,15 @@
 package Java;
 
-public class revofdig {
+public class palindromerec {
     public static void main(String[] args) {
-        
-        rev(1482);
-        System.out.println(sum);
+        int num=1223;
+        rev(num);
+        if(num==sum){
+            System.out.println("yes its a palindrome");
+        }
+        else{
+            System.out.println("not a palindrome");
+        }
     }
     static int sum=0;
     static void rev(int n){

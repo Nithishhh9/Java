@@ -10,7 +10,7 @@ public class revofdig {
     static void rev(int n){
         if(n==0){
             return ;
-        }
+        }   
 
         int r=n%10;
         sum=sum*10+r;

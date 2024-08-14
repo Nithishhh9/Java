@@ -6,14 +6,14 @@ public class revofdig {
         rev(1482);
         System.out.println(sum);
     }
-    static int sum=0;
+    static int s=0;
     static void rev(int n){
         if(n==0){
             return ;
         }   
 
         int k=n%10;
-        sum=sum*10+k;
+        s=s*10+k;
         rev(n/10);
         
     }

@@ -12,8 +12,7 @@ public class revofdig {
             return ;
         }   
 
-        int k=n%10;
-        s=s*10+k;
+        s=s *10+k;
         rev(n/10);
         
     }

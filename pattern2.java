@@ -7,7 +7,7 @@ public class pattern2 {
         Scanner Sc=new Scanner(System.in);
         System.out.println("Enetr number :");
         int num=Sc.nextInt();
-        for(int i=0;i<num-;i++){
+        for(int i=0;i<num;i++){
             for(int j=0;j<num-i;j++){
                 System.out.print(j+1  +" ");
             }

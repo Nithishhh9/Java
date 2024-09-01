@@ -1,6 +1,6 @@
 package Java;
-import java.io.*;
-import java.util.*;
+// import java.io.*;
+// import java.util.*;
 public class bleak{
     static int countSetBits(int x)
     {
@@ -12,9 +12,7 @@ public class bleak{
         return count;
     }
  
-    // A function to return ceiling of log x
-    // in base 2. For example, it returns 3
-    // for 8 and 4 for 9.
+   
     static int ceilLog2(int x)
     {
         int count = 0;

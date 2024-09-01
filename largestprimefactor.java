@@ -1,5 +1,5 @@
 package Java;
-import java.io.*;
+// import java.io.*;
 public class largestprimefactor {
     public static long largestPrimeFactor(int N) {
         // code here

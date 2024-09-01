@@ -10,7 +10,7 @@ public class sumofdigitdrec {
             return 0;
         }
         sum=n%10;
-        n=n/10;
+        n=n/10;  
         return sum+digit(n);
 
     }

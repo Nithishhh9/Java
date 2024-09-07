@@ -24,12 +24,10 @@ public class bleak{
         return count;
     }
  
-    // Returns true if n is Bleak
+ 
     static boolean isBleak(int n)
     {
-        // Check for all numbers 'x' smaller
-        // than n. If x + countSetBits(x)
-        // becomes n, then n can't be Bleak
+        
         for (int x = n - ceilLog2(n); x < n; x++)
             if (x + countSetBits(x) == n)
                 return false;
@@ -37,7 +35,6 @@ public class bleak{
         return true;
     }
  
-    // Driver code
     public static void main(String[] args)
     {
         if (isBleak(5))

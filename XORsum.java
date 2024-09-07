@@ -12,15 +12,13 @@ public class XORsum {
         }
         int res = Xorsum(arr,n);
         System.out.println(res);
-
-
-
     }
     static int Xorsum(int [] arr,int n){
-        int x,y=0;
+        int x=0,y=0;
         for(int i=0;i<n;i++){
-            if( i ^ 1 == i+1){
-                x = x^arr[i];
+            
+            if( (i ^ 1) == i+1 ){
+                x = ( x ^ arr[i]);
             }
             else{
              y =y+arr[i];

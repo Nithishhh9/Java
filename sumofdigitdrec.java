@@ -1,4 +1,4 @@
-package Java;
+// package Java;
 
 public class sumofdigitdrec {
     static int sum=0;

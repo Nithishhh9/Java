@@ -1,4 +1,4 @@
-package Java;
+// package Java;
 
 public class palindromerec {
     public static void main(String[] args) {

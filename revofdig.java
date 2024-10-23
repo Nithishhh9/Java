@@ -1,4 +1,4 @@
-package Java;
+// package Java;
 
 public class revofdig {
     public static void main(String[] args) {

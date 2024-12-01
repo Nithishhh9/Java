@@ -14,12 +14,12 @@ public class tcscodevita1 {
             return l; 
         } 
         int zeros = l-k; 
-        int maxLength = zeros / (k + 1); 
-        int remaining = zeros % (k + 1); 
-        if (remaining > 0) { 
-            maxLength += 1; 
+        int max = zeros / (k + 1); 
+        int rem = zeros % (k + 1); 
+        if (rem > 0) { 
+            max += 1; 
         } 
-        return maxLength;   
+        return max;   
       
     }
 }

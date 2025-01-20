@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class acendion {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
-        System.out.println("emter size");
+        System.out.println("enter size");
         int n=sc.nextInt();
         System.out.println("enter Array");
         int[] arr=new int[n];
